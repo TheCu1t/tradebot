@@ -1,28 +1,23 @@
-# tradebot
+# The Cu1t's Tradebot
 
 # Step 1: Install Dependencies
 
 Install Python 3.8+.
 
 Install required libraries:
-bash
-Copy
 
     pip install requests pyyaml web3
+    git clone https://github.com/TheCu1t/tradebot
 
 # Step 2: Set Up Config File
 
-Create a config.yaml file (see example above).
+Update your config.yaml file.
 
 Add your API keys and settings.
 
 # Step 3: Run the Bot
 
-Save the merged code as bot.py.
-
-Run the bot:
-bash
-Copy
+Run the bot
 
     python bot.py
 

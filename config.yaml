@@ -1,0 +1,27 @@
+apis:
+  rugcheck: "your_rugcheck_api_key"
+  pocket_universe: "your_pocket_universe_api_key"
+  coingecko: "your_coingecko_api_key"
+  etherscan: "your_etherscan_api_key"
+  toxi_bot: "your_toxi_bot_api_key"
+
+blacklists:
+  tokens:
+    - "0xScamTokenAddress1"
+    - "0xScamTokenAddress2"
+  developers:
+    - "0xMaliciousDevAddress1"
+    - "0xMaliciousDevAddress2"
+
+alerts:
+  telegram:
+    enabled: true
+    bot_token: "your_telegram_bot_token"
+    chat_id: "your_chat_id"
+
+filters:
+  min_liquidity: 1000000  # $1M
+  max_market_cap: 10000000  # $10M
+  blockchains:
+    - Ethereum
+    - BinanceSmartChain
